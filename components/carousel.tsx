@@ -39,6 +39,11 @@ const images = [
   "/carousel/farliFan.jpg",
   "/carousel/cruisey.jpg",
   "/carousel/tspmo.jpg",
+  "/carousel/cranberry.jpg",
+  "/carousel/tripleText.jpg",
+  "/carousel/silentlyJudging.jpg",
+  "/carousel/Post Project.jpg",
+  "/carousel/Pre Project.jpg"
 ];
 
 function shuffleArray(array: string[]) {

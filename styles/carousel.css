@@ -1,24 +1,24 @@
 /* carousel.css */
 .carousel-container {
-  display: flex;
+  display: flex;  
   overflow: hidden;
-  overflow-x: hidden;  /* Disable horizontal scrolling */
-  width: 500%;       /* Make sure it takes up the full width */
+  overflow-x: hidden;  
+  width: 100%;
 }
 
 .gallery {
-    display: flex; /* Align images horizontally */
-    flex-wrap: nowrap;
-    overflow: hidden; /* Hide the overflowing images */
-    width: 100%; /* Full width of the container */
-    animation: scrollImages 100s linear infinite; /* Auto scroll the images */
+  display: flex; 
+  /* overflow: hidden; 
+  overflow-x: hidden;   */
+  width: max-content; 
+  animation: scrollImages 50s linear infinite;
   }
   
   .gallery > img {
-    width: auto; /* Make each image take full width of the container */
+    width: auto; 
     max-height: 250px;
     object-fit: cover; /* Maintain the aspect ratio while covering the container */
-    flex-shrink: 50; /* Prevent images from shrinking */
+    flex-shrink: 50; 
     margin-right: 10px;
   }
   

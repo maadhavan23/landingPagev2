@@ -89,6 +89,9 @@ body {
     @apply border-border;
   }
   body {
+    overflow-x: hidden;
+    overflow: hidden;
+
     @apply bg-background text-foreground;
   }
 }
