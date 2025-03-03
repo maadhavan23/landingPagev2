@@ -1,0 +1,33 @@
+/* carousel.css */
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+  overflow-x: hidden;  /* Disable horizontal scrolling */
+  width: 500%;       /* Make sure it takes up the full width */
+}
+
+.gallery {
+    display: flex; /* Align images horizontally */
+    flex-wrap: nowrap;
+    overflow: hidden; /* Hide the overflowing images */
+    width: 100%; /* Full width of the container */
+    animation: scrollImages 100s linear infinite; /* Auto scroll the images */
+  }
+  
+  .gallery > img {
+    width: auto; /* Make each image take full width of the container */
+    max-height: 250px;
+    object-fit: cover; /* Maintain the aspect ratio while covering the container */
+    flex-shrink: 50; /* Prevent images from shrinking */
+    margin-right: 10px;
+  }
+  
+  @keyframes scrollImages {
+    0% {
+      transform: translateX(0); /* Start at the left */
+    }
+    100% {
+      transform: translateX(-100%); /* Scroll to the left */
+    }
+  }
+  
