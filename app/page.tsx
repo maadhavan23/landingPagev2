@@ -27,10 +27,6 @@ export default function Home() {
               Website!
               <br></br>
             </h1>
-            <p className="text-gray-400 mb-8">
-              I help their company and experience problems by building accessible and inclusive web products and digital
-              experiences.
-            </p>
             <div className="flex gap-4">
             <Button
                       size="lg"
