@@ -19,6 +19,7 @@ yarn-error.log*
 # env files
 .env*
 .env.local
+portfolio\.env.local
 
 # vercel
 .vercel
