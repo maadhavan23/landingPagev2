@@ -98,6 +98,8 @@ export function Projects() {
       title: "Eagle Scout Project",
       description: "Planned and Built a Paver Walkway over the course of 7 months for the Furkids using 100 total Volunteer Hours with an average of 8 Workers throughout",
       image: "/Post Project.jpg",
+      demoLink: "https://drive.google.com/file/d/1xJMJTMIotevgiITyzBpyH-QQAyw3fwLO/view?usp=sharing",
+
     }
   ]
 

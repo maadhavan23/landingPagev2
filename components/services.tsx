@@ -5,7 +5,7 @@ import Bulldog from '../bulldawg.svg'
 
 
 interface ServiceProps {
-  title: string
+  title: React.ReactNode
   description: string
   icon: React.ReactNode
 }
@@ -32,18 +32,42 @@ export function Services() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <ServiceCard
           icon={<Dog size={24} />}
-          title="MIS Major @ UGA"
+          title={
+            <>
+              MIS Major @{" "}
+              <a
+                href="https://www.terry.uga.edu/majors-and-minor/management-information-systems/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-secondary underline hover:text-primary/80"
+              >
+                UGA
+              </a>
+            </>
+          }
           description="Uses data-driven insights to create value for businesses"
         />
         <ServiceCard
           icon={<Binary size={24} />}
-          title="Pledge Master @ Kappa Theta Pi"
+          title={
+            <>
+              New Member Coordinator @{" "}
+              <a
+                href="https://ktpgeorgia.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-secondary underline hover:text-primary/80"
+              >
+                Kappa Theta Pi
+              </a>
+            </>
+          }
           description="Guiding new members through pledging with Event Planning and Coordination, and Fraternity Leadership"
         />
         <ServiceCard
           icon={<LucideTrees size={24} />}
           title="PERSEUS Intern @ Warnell School of Forestry"
-          description="Creating and Managing the Forestry School's Virtual Reality Classroom through 360° video production and Editing"
+          description="Creating and Managing the Forestry School's Virtual Reality Classroom through 360° Video Production and Headset Management"
         />
         <ServiceCard
           icon={<HousePlus size={24} />}
