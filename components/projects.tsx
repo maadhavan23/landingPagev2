@@ -22,9 +22,9 @@ function ProjectCard({ title, description, image, demoLink, githubLink,figmaLink
           fill
           className="object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
         />
-      </div>
+       </div>
       <h3 className="text-lg font-semibold group-hover:text-primary transition-colors mb-2">{title}</h3>
-      <p className="text-gray-400 text-sm mb-4">{description}</p>
+      <p className="text-gray-400 text-sm mb-4" dangerouslySetInnerHTML={{ __html: description }}></p>
       <div className="flex gap-4">
         <Button
           variant="outline"
@@ -61,8 +61,8 @@ export function Projects() {
   const projects = [
     {
       title: "Finance with Friends!",
-      description: "A project for UGAHacks X! Basically a learning tool for personal Finances! Very Cool!",
-      image: "/logo2.jpg",
+      description: `A project for <a href="https://ugahacks.com" target="_blank" rel="noopener noreferrer" class="text-secondary underline hover:text-primary/10">UGAHacks X</a>! Basically a learning tool for personal Finances! Very Cool!`,
+      image:"/logo.png",
       demoLink: "https://devpost.com/software/finance-with-friends",
       githubLink: "https://github.com/Juvis237/UGAHacks/tree/main",
     },

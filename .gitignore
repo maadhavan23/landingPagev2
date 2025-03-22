@@ -21,6 +21,9 @@ yarn-error.log*
 .env.local
 portfolio\.env.local
 
+# Firebase
+portfolio\lib\firebaseAdmin.js
+
 # vercel
 .vercel
 
