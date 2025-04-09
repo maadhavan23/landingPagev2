@@ -30,3 +30,5 @@ portfolio\lib\firebaseAdmin.js
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
