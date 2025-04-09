@@ -9,6 +9,7 @@ import Image from "next/image"
 import { Navbar } from "@/components/navbar"
 import { Phone, Mail, MapPin } from "lucide-react"
 import Carousel from "@/components/carousel"; 
+import { Analytics } from "@vercel/analytics/react"
 
 
 export default function Home() {

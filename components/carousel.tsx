@@ -45,7 +45,7 @@ const images = [
   "/carousel/Post Project.jpg",
   "/carousel/Pre Project.jpg",
   "/carousel/imposterKiki.jpg",
-  "/carousel/perseusMeetup.jpg",
+ // "/carousel/perseusMeetup.jpg",
 ];
 
 function shuffleArray(array: string[]) {
