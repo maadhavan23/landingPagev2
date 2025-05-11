@@ -52,6 +52,12 @@ export function Skills() {
     },{
       name: "ChatGPT",
       icon: "https://ai.ls/assets/openai-logos/SVGs/openai-logomark.svg",
+    },{
+      name: "SurveyMonkey / IRB Compliance",
+      icon: "https://www.irbsearch.com/images/icons/icon-irbsearch.png",
+    },{
+      name: "TeamGantt",
+      icon: "https://www.shareicon.net/data/2017/06/23/887697_management_512x512.png",
     }
   ];
 
