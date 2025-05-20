@@ -44,7 +44,7 @@ const images = [
   "/carousel/silentlyJudging.jpg",
   "/carousel/Post Project.jpg",
   "/carousel/Pre Project.jpg",
-  "/carousel/imposterKiki.jpg",
+  "/carousel/laloSalamanca.jpg",
   "/carousel/hotsauceinc!.jpg",
   "/carousel/mlpLove.jpg",
   "/carousel/fwaeh.jpg",

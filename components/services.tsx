@@ -66,7 +66,24 @@ export function Services() {
         />
         <ServiceCard
           icon={<LucideTrees size={24} />}
-          title="PERSEUS Intern @ Warnell School of Forestry"
+          title=
+          {
+            <>
+              {" "}
+              <a
+                href="https://perseus.uga.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-secondary underline hover:text-primary/80"
+              >
+                PERSEUS Project Intern
+              </a>
+              <br></br>
+                 @ Warnell School of Forestry and Natural Resources
+            </>
+          }
+
+
           description="Creating and Managing the Forestry School's Virtual Reality Classroom through 360° Video Production and Headset Management"
         />
         <ServiceCard
