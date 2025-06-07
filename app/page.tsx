@@ -61,7 +61,7 @@ export default function Home() {
           <div className="relative">
             <div className="relative aspect-square max-w-[400px] mx-auto">
               <Image
-                src="/Maadhavan-Muthuselvan-Headshot.JPG"
+                src="/headshot.jpg"
                 alt="Profile"
                 fill
                 className="rounded-2xl object-cover"
