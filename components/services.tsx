@@ -76,7 +76,7 @@ export function Services() {
                 rel="noopener noreferrer"
                 className="text-secondary underline hover:text-primary/80"
               >
-                PERSEUS Project Intern
+                Virtual Reality Project Intern
               </a>
               <br></br>
                  @ Warnell School of Forestry and Natural Resources
@@ -84,7 +84,7 @@ export function Services() {
           }
 
 
-          description="Creating and Managing the Forestry School's Virtual Reality Classroom through 360° Video Production and Headset Management"
+          description="Creating and Managing the Forestry School's Virtual Reality Classroom through VR Experience Production"
         />
         <ServiceCard
           icon={<HousePlus size={24} />}

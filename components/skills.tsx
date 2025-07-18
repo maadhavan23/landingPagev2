@@ -28,8 +28,21 @@ export default function SkillItem({ name, icon }: SkillProps) {
 export function Skills() {
   const testimonials: SkillProps[] = [
     {
+      name: "Unreal Engine",
+      icon: "https://www.citypng.com/public/uploads/preview/hd-unreal-engine-white-logo-icon-png-7017516949697958pnkct2kiz.png",
+    },
+    {
+      name: "Unity",
+      icon: "https://www.citypng.com/public/uploads/preview/unity-white-logo-icon-png-701751694968149dpc3d4ff9d.png",
+    },{
+      name: "C#",
+      icon: "https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo-thumbnail.png",
+    },{
+      name: "Tableau",
+      icon: "https://cdn.worldvectorlogo.com/logos/tableau-software.svg"},
+    {
       name: "SQL",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
+      icon: "https://images.icon-icons.com/1381/PNG/512/mysqlworkbench_93532.png",
     },
     {
       name: "Git",
@@ -38,27 +51,29 @@ export function Skills() {
       name: "Java",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
     },{
-      name: "Tableau",
-      icon: "https://cdn.worldvectorlogo.com/logos/tableau-software.svg",
-    },{
       name: "Matplotlib",
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Matplotlib_icon.svg/1024px-Matplotlib_icon.svg.png",
     },{
       name: "GitHub",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt6DXuvit57V1DmjnlLcwst4O-sTL5D37gIQ&s",
     },{
       name: "Figma",
-      icon: "https://www.svgrepo.com/show/330433/figma.svg",
+      icon: "https://cdn-icons-png.flaticon.com/512/5968/5968701.png",
     },{
       name: "ChatGPT",
-      icon: "https://ai.ls/assets/openai-logos/SVGs/openai-logomark.svg",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDZH7RyUSalXPozJigEDxsWFatFPdpT0yWmA&s",
     },{
       name: "SurveyMonkey / IRB Compliance",
       icon: "https://www.irbsearch.com/images/icons/icon-irbsearch.png",
     },{
       name: "TeamGantt",
       icon: "https://www.shareicon.net/data/2017/06/23/887697_management_512x512.png",
-    }
+    },
+    {
+      name: "C#",
+      icon: "https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo-thumbnail.png",
+    },
+    
   ];
 
   return (

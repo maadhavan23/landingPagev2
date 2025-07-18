@@ -60,8 +60,14 @@ function ProjectCard({ title, description, image, demoLink, githubLink,figmaLink
 export function Projects() {
   const projects = [
     {
+      title: "A Step into the Woods!",
+      description: `This VR project by the <a href="https://pmrc.uga.edu/" target="_blank" rel="noopener noreferrer" class="text-secondary underline hover:text-primary/10">PMRC</a> shows how climate change stresses Loblolly Pine—and how strategic fertilization can help.`,
+      image:"/logo.png",
+      demoLink: "https://docs.google.com/presentation/d/1--tsuAMAdIgWHX4bfScVw-c3GMUYHflGCWt2GNX_XPE/edit?usp=sharing",
+      githubLink: "https://github.com/maadhavan23/PMRC-PINEMAP",
+    },{
       title: "Finance with Friends!",
-      description: `A project for <a href="https://ugahacks.com" target="_blank" rel="noopener noreferrer" class="text-secondary underline hover:text-primary/10">UGAHacks X</a>! Basically a learning tool for personal Finances! Very Cool!`,
+      description: `A project for <a href="https://x.ugahacks.com/" target="_blank" rel="noopener noreferrer" class="text-secondary underline hover:text-primary/10">UGAHacks X</a>! Basically a learning tool for personal finances! Very Cool!`,
       image:"/logo.png",
       demoLink: "https://devpost.com/software/finance-with-friends",
       githubLink: "https://github.com/Juvis237/UGAHacks/tree/main",
