@@ -79,7 +79,7 @@ export default function Home() {
       {/* Other Sections */}
       <div className="container mx-auto px-4">
         <Services />
-        <PasServices />
+       {/* <PasServices />*/}
         <Projects />
         <Skills />
         {/* <div className="text-center mb-12" >
