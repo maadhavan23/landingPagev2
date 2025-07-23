@@ -62,7 +62,7 @@ export function Projects() {
     {
       title: "A Step into the Woods!",
       description: `This VR project by the <a href="https://pmrc.uga.edu/" target="_blank" rel="noopener noreferrer" class="text-secondary underline hover:text-primary/10">PMRC</a> shows how climate change stresses Loblolly Pine—and how strategic fertilization can help.`,
-      image:"/logo.png",
+      image:"/pmrcpic1.jpg",
       demoLink: "https://docs.google.com/presentation/d/1--tsuAMAdIgWHX4bfScVw-c3GMUYHflGCWt2GNX_XPE/edit?usp=sharing",
       githubLink: "https://github.com/maadhavan23/PMRC-PINEMAP",
     },{

@@ -51,18 +51,18 @@ export function Services() {
           icon={<Binary size={24} />}
           title={
             <>
-              New Member Coordinator @{" "}
+              VP of Internal Affairs @{" "}
               <a
                 href="https://ktpgeorgia.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-secondary underline hover:text-primary/80"
               >
-                Kappa Theta Pi
+              Kappa Theta Pi
               </a>
             </>
           }
-          description="Guiding new members through pledging with Event Planning and Coordination, and Fraternity Leadership"
+          description="Leading DEI initiatives and Managed logistics to foster an inclusive fraternity culture."
         />
         <ServiceCard
           icon={<LucideTrees size={24} />}
