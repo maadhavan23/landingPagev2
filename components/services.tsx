@@ -51,7 +51,7 @@ export function Services() {
           icon={<Binary size={24} />}
           title={
             <>
-              VP of Internal Affairs @{" "}
+              SWE Project Manager @{" "}
               <a
                 href="https://ktpgeorgia.com/"
                 target="_blank"
@@ -62,7 +62,7 @@ export function Services() {
               </a>
             </>
           }
-          description="Leading DEI initiatives and managing logistics to foster an inclusive fraternity culture."
+          description="Managed a student software team using agile—defining epics, user stories, and sprint plans across frontend and backend."
         />
         <ServiceCard
           icon={<LucideTrees size={24} />}
@@ -82,14 +82,7 @@ export function Services() {
                  @ Warnell School of Forestry and Natural Resources
             </>
           }
-
-
-          description="Creating and Managing the Forestry School's Virtual Reality Classroom through VR Experience Production"
-        />
-        <ServiceCard
-          icon={<HousePlus size={24} />}
-          title="Community Service Assistant @ University Housing"
-          description="Coordinating mail, keys, and packages for 900 residents as well as being a resource for accurate University and Housing Information "
+          description="Creating content and Managing the Forestry School's Virtual Reality Classroom through VR Production"
         />
       </div>
     </section>
