@@ -62,7 +62,7 @@ export function Services() {
               </a>
             </>
           }
-          description="Leading DEI initiatives and Managed logistics to foster an inclusive fraternity culture."
+          description="Leading DEI initiatives and managing logistics to foster an inclusive fraternity culture."
         />
         <ServiceCard
           icon={<LucideTrees size={24} />}

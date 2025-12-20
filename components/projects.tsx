@@ -60,6 +60,12 @@ function ProjectCard({ title, description, image, demoLink, githubLink,figmaLink
 export function Projects() {
   const projects = [
     {
+      title: "Framework Investment Memo Slide Deck!",
+      description: `I analyzed 15 venture-backed tech companies using TAMs, competition, and traction to find the one worth backing. 🤖ANYTHING FOR HP TECH VENTURES🤖 `,
+      image:"/carousel/summerPrezzy.jpg",
+      demoLink: "https://framework-pitch.vercel.app/",
+      githubLink: "https://github.com/maadhavan23/Framework-Pitch",
+    },{
       title: "A Step into the Woods!",
       description: `This VR project by the <a href="https://pmrc.uga.edu/" target="_blank" rel="noopener noreferrer" class="text-secondary underline hover:text-primary/10">PMRC</a> shows how climate change stresses Loblolly Pine—and how strategic fertilization can help.`,
       image:"/pmrcpic1.jpg",
