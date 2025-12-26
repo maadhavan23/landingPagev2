@@ -70,8 +70,8 @@ export function Skills() {
       icon: "https://www.shareicon.net/data/2017/06/23/887697_management_512x512.png",
     },
     {
-      name: "C#",
-      icon: "https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo-thumbnail.png",
+      name: "R",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg",
     },
     
   ];
