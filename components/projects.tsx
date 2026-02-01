@@ -61,7 +61,7 @@ export function Projects() {
   const projects = [
     {
       title: "Framework Investment Memo Slide Deck!",
-      description: `I analyzed 15 venture-backed tech companies using TAMs, competition, and traction to find the one worth backing. 🤖ANYTHING FOR HP TECH VENTURES🤖 `,
+      description: `I analyzed 15 venture-backed tech companies using TAMs, competition, and traction to find the one worth backing.`,
       image:"/carousel/summerPrezzy.jpg",
       demoLink: "https://framework-pitch.vercel.app/",
       githubLink: "https://github.com/maadhavan23/Framework-Pitch",
