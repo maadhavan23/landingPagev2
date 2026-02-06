@@ -84,8 +84,8 @@ export default function Home() {
         <Skills />
         {/* <div className="text-center mb-12" >
               <h2 className="text-3xl font-bold mb-4">PICS THAT DIDNT MAKE INSTAGRAM</h2>
-          </div>
-        <Carousel /> */}
+          </div>*/
+        <Carousel /> }
 
         {/* <Testimonials /> */}
 
