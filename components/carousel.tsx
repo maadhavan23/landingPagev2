@@ -11,7 +11,7 @@ const images = [
   "/carousel/ktpumpkins.jpg",
   "/carousel/modAndBarnes.jpg",
   //"/carousel/nature.jpg",
-  "/carousel/oneto4.jpg",
+  //"/carousel/oneto4.jpg",
   //"/carousel/pintrest.jpg",
   "/carousel/realty.jpg",
   "/carousel/redBull.jpg",
